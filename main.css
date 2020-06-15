@@ -1,0 +1,14 @@
+main {
+    padding: 10px;
+    /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
+    font-size: 24;
+  }
+  
+  img{
+    display: block;
+    height: 50vh;
+  }
+
+  h2{
+    font-weight: bold;
+  }

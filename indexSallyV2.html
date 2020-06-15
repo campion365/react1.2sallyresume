@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sally Student Resume</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <div id="resume"></div>
+  
+  <script
+    src="https://unpkg.com/react@16/umd/react.development.js">
+  </script>
+  <script
+    src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+  </script>
+  <script
+    src="https://unpkg.com/babel-standalone@6/babel.min.js">
+  </script>
+  
+<script type="text/babel">
+
+function App() {
+//   console.log(props);
+  return (
+    <main>
+    <header>
+        <h1>Sally Student Resume</h1> 
+    </header>
+    
+    <section>
+        <h2> Contact Info </h2> Name: Sally Student <br /> Email: <address><a href="mailto:sallyemail12345@gmail.com">sallyemail12345@gmail.com </a></address> 
+        <br />Phone: 612-867-5309
+        <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt ="Sally Student Photo" />
+    </section><br />
+    <section>
+        <h2> Education </h2>
+        Missouri State University, 2015, Cum Laude
+    </section> 
+    <br />    
+    <section>
+    <h2> Employment History </h2>
+        Parkland Missouri Humane Society<br />
+        Marketing and Community Manager<br />
+        Description: Lorem ipsum dolor sit amet <br />
+        August 2014 - Current 
+        <br />
+        <br />
+        MacDoogals Restaurant<br />
+        Office Manager<br />
+        Description: Lorem ipsum dolor sit amet <br />
+        2009 - 2014 
+        <br />
+        <br />
+        Frank's Taxidermy <br />
+        Rodent Artist<br />
+        Description: Lorem ipsum dolor sit amet<br />
+        2001 - 2008
+        <br />
+        <br />
+    </section>  
+    <footer><i>Sally Student Resume</i></footer>   
+    </main>
+  );
+}
+
+
+// Nested elements inside the App
+ReactDOM.render(
+  <App />,
+  document.querySelector('#resume')
+);
+
+  </script>
+  </body>
+</html>
